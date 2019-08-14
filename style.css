@@ -16,7 +16,7 @@ img.img1{
 border-radius: 50%;
 width: 150px;
 height:150px;
-position: sticky;
+position: absolute;
 top: 0px;
 z-index: 1;
 
@@ -30,45 +30,39 @@ h1{
 	left:10%;
 border:2px solid grey;
 }
-div.container{
-background-color: #444;
-position: sticky;
-top: 13%
-left:10%;
-}
-nav.nav1{
-
-}
-ul.ul1{
-
-}
-li{
-	text-decoration: none;
-}
 
 
 
 
-div.one{
-position:absolute;
-float: right;
-right:0px;
-top: 13%;
-}
+
+
 .grid_container{
 display: grid;
 grid-template-columns: auto auto auto auto;
 grid-gap: 2px;
-/*opacity: 0.5;*/
-background-color:grey;
+opacity: 0.6;
+
 padding: 10px;
 height: 500px;
+position: absolute;
+top:19%;
+	left:12.5%;
 }
 .grid_container > div{
  text-align: center;
  
   background: rgba(0,0,0,0.5);
   font-size: 20px;
+}
+div.ad{
+position: absolute;
+top:20%;
+left: 0;
+height: 500px;
+width: 12%;
+background-color: rgba(0,0,0,0.5);
+color: white;
+
 }
 .item1
 {
@@ -86,7 +80,3 @@ height: 500px;
 	background-image: cover;
 }
 
-span.i{
-	color: white;
-	float: bottom;
-}
