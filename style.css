@@ -1,11 +1,13 @@
 
 		body{
-			background-image:url(1.jpg);
+			background-image: url('p.jpeg');
+			background-color: hsl(226, 100%, 5%);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
 			margin: 0;
 			padding: 0;
+
 
 			font-family: 'Permanent Marker', cursive;
 		}
@@ -16,7 +18,7 @@ img.img1{
 border-radius: 50%;
 width: 150px;
 height:150px;
-position: absolute;
+position: fixed;
 top: 0px;
 z-index: 1;
 
@@ -40,12 +42,12 @@ border:2px solid grey;
 display: grid;
 grid-template-columns: auto auto auto auto;
 grid-gap: 2px;
-opacity: 0.6;
+
 
 padding: 10px;
 height: 500px;
 position: absolute;
-top:19%;
+top:100%;
 	left:12.5%;
 }
 .grid_container > div{
@@ -55,13 +57,16 @@ top:19%;
   font-size: 20px;
 }
 div.ad{
-position: absolute;
-top:20%;
+position: fixed;
+top:22%;
 left: 0;
-height: 500px;
+height: 100%;
 width: 12%;
 background-color: rgba(0,0,0,0.5);
 color: white;
+font-size: 30px;
+text-align: center;
+margin-bottom: 20px;
 
 }
 .item1
